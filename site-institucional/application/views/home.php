@@ -21,8 +21,8 @@
                         <nav>
                             <ul class="nav masthead-nav">
                                 <li class="active"><a href="#">Home</a></li>
-                                <li><a href="">A Empresa</a></li>
-                                <li><a href="">Serviços</a></li>
+                                <li><a href="<?=site_url('Institucional/Empresa')?>">A Empresa</a></li>
+                                <li><a href="<?=site_url('Institucional/Servicos')?>">Serviços</a></li>
                                 <li><a href="">Trabalhe Conosco</a></li>
                                 <li><a href="">Fale Conosco</a></li>
                             </ul>
