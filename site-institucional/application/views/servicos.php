@@ -2,10 +2,8 @@
     <div class="page-header">
         <h1>Serviços</h1>
     </div>
-</div>
 <p class="lead">Esses são os serviços que a empresa oferece, e a página é composta por cabeçalho, rodapé e conteúdo tendo título e parágrafos.</p>
 <div class="row">
-    <div class="row">
         <div class="col-lg-4">
             <h3>Serviço 1</h3>
             <p>Descrição do serviço</p>
