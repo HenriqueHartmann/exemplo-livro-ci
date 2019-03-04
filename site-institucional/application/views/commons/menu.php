@@ -15,10 +15,10 @@ if($this->uri->segment(3) == 'Institucional' && $this->uri->segment(4) == 'index
         <li class="<?=($this->uri->segment(3) == 'Institucional' && $this->uri->segment(4) == 'Servicos') ? 'active' : null ?>">
             <a href="<?=site_url('Institucional/Servicos')?>">Serviços</a>
         </li>
-        <li class="<?=($this->uri->segment(3) == 'Institucional' && $this->uri->segment(4) == 'trabalhe-conosco') ? 'active' : null ?>">
-            <a href="<?=site_url('Institucional/Trabalhe-Conosco')?>">Trabalhe Conosco</a>
+        <li class="<?=($this->uri->segment(3) == 'Institucional' && $this->uri->segment(4) == 'TrabalheConosco') ? 'active' : null ?>">
+            <a href="<?=site_url('Contato/TrabalheConosco')?>">Trabalhe Conosco</a>
         </li>
-        <li class="<?=($this->uri->segment(3) == 'Institucional' && $this->uri->segment(4) == 'fale-conosco') ? 'active' : null ?>">
-            <a href="<?=site_url('Institucional/Fale-Conosco')?>">Fale Conosco</a>
+        <li class="<?=($this->uri->segment(3) == 'Institucional' && $this->uri->segment(4) == 'FaleConosco') ? 'active' : null ?>">
+            <a href="<?=site_url('Contato/FaleConosco')?>">Fale Conosco</a>
         </li>
     </ul>

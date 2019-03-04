@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Site Institucional</title>
+    <title><?=$title?></title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <link href="http://getbootstrap.com/assets/css/ie10-viewport-buf-workaround.css" rel="stylesheet">
     <link href="<?=base_url('assets/css/home.css')?>" rel="stylesheet">
