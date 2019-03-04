@@ -19,13 +19,14 @@
                     <div class="inner">
                         <h1 class="masthead-brand">LCI</h1>
                         <nav>
-                            <ul class="nav masthead-nav">
-                                <li class="active"><a href="#">Home</a></li>
-                                <li><a href="<?=site_url('Institucional/Empresa')?>">A Empresa</a></li>
-                                <li><a href="<?=site_url('Institucional/Servicos')?>">Serviços</a></li>
-                                <li><a href="">Trabalhe Conosco</a></li>
-                                <li><a href="">Fale Conosco</a></li>
-                            </ul>
+<!--                            <ul class="nav masthead-nav">-->
+<!--                                <li class="active"><a href="#">Home</a></li>-->
+<!--                                <li><a href="--><?//=site_url('Institucional/Empresa')?><!--">A Empresa</a></li>-->
+<!--                                <li><a href="--><?//=site_url('Institucional/Servicos')?><!--">Serviços</a></li>-->
+<!--                                <li><a href="">Trabalhe Conosco</a></li>-->
+<!--                                <li><a href="">Fale Conosco</a></li>-->
+<!--                            </ul>-->
+                            <?php $this->load->view('commons/menu'); ?>
                         </nav>
                     </div>
                 </div>
